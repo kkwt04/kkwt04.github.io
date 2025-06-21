@@ -1,0 +1,102 @@
+@font-face {
+font-family: 'CMU Serif Roman';
+font-style: normal;
+font-weight: normal;
+src: url('fonts/cmu.serif-roman.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'CMU Serif Italic';
+font-style: normal;
+font-weight: normal;
+src: url('fonts/cmu.serif-italic.ttf') format('truetype');
+}
+
+/*
+@font-face {
+font-family: 'CMU Serif Bold';
+font-style: normal;
+font-weight: normal;
+src: url('fonts/cmu.serif-bold.ttf') format('truetype');
+} */
+
+/* COLOUR LIST:
+    #c8c0c5
+    #c7935c
+    #858fa6
+    #645f6f (UNUSED)
+    #403a42
+    #1a1d27 (UNUSED)
+*/
+
+body {
+    font-family: 'CMU Serif Roman';
+    background-color: #403a42;
+    color: #c8c0c5;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 30px;
+    color: #858fa6;
+}
+
+.contacts {
+    margin-top: 30px;
+}
+
+.contacts a {
+    text-decoration: none;
+    margin: 0 30px;
+    color: #858fa6;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c7935c;
+}
+
+hr.solid {
+    border-top: 0px solid #c8c0c5;
+    margin-top: 30px;
+    width: 35%;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+    border: 1px solid #c8c0c5;
+    border-radius: 5px; /* round figure edges */
+}
+
+figure figcaption {
+    margin-top: 5px;
+    color: #c8c0c5;
+}
